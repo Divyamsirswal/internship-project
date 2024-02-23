@@ -1,6 +1,10 @@
 import { Container, Nav, Navbar, InputGroup, Form } from "react-bootstrap";
 import logo from "../../../public/ICONS/divinelogohorizontal.png";
-import { CasinoRoundedIcon, ShoppingCartRoundedIcon, SearchRoundedIcon, AccountCircleRoundedIcon, NotificationsRoundedIcon } from "@mui/icons-material";
+import CasinoRoundedIcon from "@mui/icons-material/CasinoRounded";
+import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
+import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
+import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
+import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
 
 function Header() {
   return (
@@ -35,7 +39,10 @@ function Header() {
               </InputGroup.Text>
             </InputGroup>
 
-            <Form.Select className="me-3" style={{ height: "40px", width: "100px" }}>
+            <Form.Select
+              className="me-3"
+              style={{ height: "40px", width: "100px" }}
+            >
               <option value="en">English</option>
               <option value="fr">French</option>
               <option value="es">Spanish</option>
