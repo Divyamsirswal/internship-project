@@ -1,5 +1,6 @@
 import { Container, Row, Col } from 'react-bootstrap';
 import 'bootstrap/dist/css/bootstrap.min.css';
+
 import tarot from '../../../public/ICONS/tarot.png';
 import angel from '../../../public/ICONS/angel.png';
 import ketinaLove from '../../../public/ICONS/ketinalove.png';

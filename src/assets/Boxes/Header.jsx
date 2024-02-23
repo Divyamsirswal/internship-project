@@ -1,13 +1,6 @@
-import Container from "react-bootstrap/Container";
-import Nav from "react-bootstrap/Nav";
-import Navbar from "react-bootstrap/Navbar";
+import { Container, Nav, Navbar, InputGroup, Form } from "react-bootstrap";
 import logo from "../../../public/ICONS/divinelogohorizontal.png";
-import { InputGroup, Form } from "react-bootstrap";
-import AccountCircleRoundedIcon from "@mui/icons-material/AccountCircleRounded";
-import NotificationsRoundedIcon from "@mui/icons-material/NotificationsRounded";
-import SearchRoundedIcon from "@mui/icons-material/SearchRounded";
-import ShoppingCartRoundedIcon from "@mui/icons-material/ShoppingCartRounded";
-import CasinoRoundedIcon from "@mui/icons-material/CasinoRounded";
+import { CasinoRoundedIcon, ShoppingCartRoundedIcon, SearchRoundedIcon, AccountCircleRoundedIcon, NotificationsRoundedIcon } from "@mui/icons-material";
 
 function Header() {
   return (
@@ -42,12 +35,12 @@ function Header() {
               </InputGroup.Text>
             </InputGroup>
 
-            <select className="me-3" style={{ height: "40px", width: "100px" }}>
+            <Form.Select className="me-3" style={{ height: "40px", width: "100px" }}>
               <option value="en">English</option>
               <option value="fr">French</option>
               <option value="es">Spanish</option>
               <option value="de">German</option>
-            </select>
+            </Form.Select>
 
             <Nav.Link href="#home" className="me-3">
               Login/Registration
