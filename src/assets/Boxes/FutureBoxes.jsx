@@ -1,4 +1,19 @@
 import './styles.css';
+import tarot from '../../../public/ICONS/tarot.png';
+import angel from '../../../public/ICONS/angel.png';
+import ketinaLove from '../../../public/ICONS/ketinalove.png';
+import face from '../../../public/ICONS/face.png';
+import palm from '../../../public/ICONS/palm.png';
+import finger from '../../../public/ICONS/finger.png';
+import timeTravel from '../../../public/ICONS/timetravel.png';
+import astrology from '../../../public/ICONS/astrology.png';
+import biorythm from '../../../public/ICONS/biorythm.png';
+import dreamInterpretation from '../../../public/ICONS/dreaminterpretation.png';
+import crystalBall from '../../../public/ICONS/crystalball.png';
+import numerology from '../../../public/ICONS/numerology.png';
+import meditation from '../../../public/ICONS/meditation.png';
+import emotionalSupport from '../../../public/ICONS/emotionalsupport.png';
+import divineLogo from '../../../public/ICONS/divinelogohorizontal.png';
 
 function FutureBoxes() {
   return (
@@ -6,72 +21,72 @@ function FutureBoxes() {
       <div className="section">
         <h2>Read Your Future Now</h2>
         <div className="box">
-          <img src="image1.jpg" alt="Image 1" />
+          <img src={tarot} alt="Tarot Reading" />
           <h3>Tarot Reading</h3>
         </div>
         <div className="box">
-          <img src="image2.jpg" alt="Image 2" />
+          <img src={angel} alt="Angel Reader" />
           <h3>Angel Reader</h3>
         </div>
         <div className="box">
-          <img src="image3.jpg" alt="Image 3" />
-          <h3>katina Love Reading</h3>
+          <img src={ketinaLove} alt="Katina Love Reading" />
+          <h3>Katina Love Reading</h3>
         </div>
         <div className="box">
-          <img src="image4.jpg" alt="Image 4" />
+          <img src={face} alt="Face Reader" />
           <h3>Face Reader</h3>
         </div>
         <div className="box">
-          <img src="image5.jpg" alt="Image 5" />
+          <img src={palm} alt="Palm Reader" />
           <h3>Palm Reader</h3>
         </div>
         <div className="box">
-          <img src="image6.jpg" alt="Image 6" />
+          <img src={finger} alt="Finger Reader" />
           <h3>Finger Reader</h3>
         </div>
       </div>
       <div className="section">
         <h2>Embark on your Journey</h2>
         <div className="box">
-          <img src="image7.jpg" alt="Image 7" />
+          <img src={timeTravel} alt="Time Travel" />
           <h3>Time Travel</h3>
         </div>
         <div className="box">
-          <img src="/icons/astrology.png" alt="Image 8" />
+          <img src={astrology} alt="Astrology" />
           <h3>Astrology</h3>
         </div>
         <div className="box">
-          <img src="image9.jpg" alt="Image 9" />
+          <img src={biorythm} alt="Biorythm" />
           <h3>Biorythm</h3>
         </div>
       </div>
       <div className="section">
         <h2>Lets take you to the another Dimension</h2>
         <div className="box">
-          <img src="image10.jpg" alt="Image 10" />
+          <img src={dreamInterpretation} alt="Dream Interpretation" />
           <h3>Dream Interpretation</h3>
         </div>
         <div className="box">
-          <img src="image11.jpg" alt="Image 11" />
+          <img src={crystalBall} alt="Crystal Ball" />
           <h3>Crystal Ball</h3>
         </div>
         <div className="box">
-          <img src="image12.jpg" alt="Image 12" />
+          <img src={numerology} alt="Numerlogy" />
           <h3>Numerlogy</h3>
         </div>
       </div>
       <div className="section">
         <h2>Nourish Your soul</h2>
         <div className="box">
-          <img src="image13.jpg" alt="Image 13" />
-          <h3>Medditation</h3>
+          <img src={meditation} alt="Meditation" />
+          <h3>Meditation</h3>
         </div>
         <div className="box">
-          <img src="image14.jpg" alt="Image 14" />
+          <img src={emotionalSupport} alt="Emotional Support" />
           <h3>Emotional Support</h3>
         </div>
         <div className="box">
-          <img src="image15.jpg" alt="Image 15" />
+          <img src={divineLogo} alt="Get Your Solutions" />
           <h3>Get Your Solutions</h3>
         </div>
       </div>

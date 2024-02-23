@@ -22,7 +22,9 @@ body {
   .box {
     display: inline-block;
     width: calc(25% - 20px);
+    background: linear-gradient(50deg,#8BFFFF,#BAABF8,#8321FF);
     border: 1px solid black;
+    opacity: 100%;
     padding: 25px;
     margin: 10px 10px 10px 10px;
   }
