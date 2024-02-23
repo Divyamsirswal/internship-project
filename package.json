@@ -12,6 +12,7 @@
   },
   "dependencies": {
     "@mui/icons-material": "^5.15.10",
+    "@popperjs/core": "^2.11.8",
     "bootstrap": "^5.3.3",
     "react": "^18.2.0",
     "react-bootstrap": "^2.10.1",
