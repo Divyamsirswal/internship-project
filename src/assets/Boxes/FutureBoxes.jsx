@@ -1,21 +1,21 @@
-import { Container, Row, Col } from 'react-bootstrap';
-import 'bootstrap/dist/css/bootstrap.min.css';
+import { Container, Row, Col } from "react-bootstrap";
+import "bootstrap/dist/css/bootstrap.min.css";
 
-import tarot from '../../../public/ICONS/tarot.png';
-import angel from '../../../public/ICONS/angel.png';
-import ketinaLove from '../../../public/ICONS/ketinalove.png';
-import face from '../../../public/ICONS/face.png';
-import palm from '../../../public/ICONS/palm.png';
-import finger from '../../../public/ICONS/finger.png';
-import timeTravel from '../../../public/ICONS/timetravel.png';
-import astrology from '../../../public/ICONS/astrology.png';
-import biorythm from '../../../public/ICONS/biorythm.png';
-import dreamInterpretation from '../../../public/ICONS/dreaminterpretation.png';
-import crystalBall from '../../../public/ICONS/crystalball.png';
-import numerology from '../../../public/ICONS/numerology.png';
-import meditation from '../../../public/ICONS/meditation.png';
-import emotionalSupport from '../../../public/ICONS/emotionalsupport.png';
-import divineLogo from '../../../public/ICONS/divinelogohorizontal.png';
+import tarot from "../../../public/ICONS/tarot.png";
+import angel from "../../../public/ICONS/angel.png";
+import ketinaLove from "../../../public/ICONS/ketinalove.png";
+import face from "../../../public/ICONS/face.png";
+import palm from "../../../public/ICONS/palm.png";
+import finger from "../../../public/ICONS/finger.png";
+import timeTravel from "../../../public/ICONS/timetravel.png";
+import astrology from "../../../public/ICONS/astrology.png";
+import biorythm from "../../../public/ICONS/biorythm.png";
+import dreamInterpretation from "../../../public/ICONS/dreaminterpretation.png";
+import crystalBall from "../../../public/ICONS/crystalball.png";
+import numerology from "../../../public/ICONS/numerology.png";
+import meditation from "../../../public/ICONS/meditation.png";
+import emotionalSupport from "../../../public/ICONS/emotionalsupport.png";
+import divineLogo from "../../../public/ICONS/divinelogohorizontal.png";
 
 function FutureBoxes() {
   return (
