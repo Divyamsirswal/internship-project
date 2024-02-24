@@ -6,8 +6,8 @@ function App() {
   return (
     <Container>
       <div className="App">
-        <FutureBoxes />
         <Header />
+        <FutureBoxes />
       </div>
     </Container>
   );
