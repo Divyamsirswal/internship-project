@@ -12,7 +12,6 @@ function App() {
       <Container>
         <div className="App">
           <Header />
-          <FutureBoxes />
           <Routes>
             <Route path="/" element={<FutureBoxes />} />
             <Route path="/tarot_reading" element={<TarotReading />} />
