@@ -1,0 +1,65 @@
+.Main-Page{
+    min-height: 100vh;
+    width: 100%;
+    
+}
+.Meditation-text{
+    height: 10vh;
+    border-bottom: 1px solid black;
+}
+.Meditation-text h1{
+    font-size: 3rem;
+    color: purple;
+    font-weight: 300;
+   
+    text-align: center;
+    margin-top: 2rem;
+}
+.Options{
+    margin: 80px 20px;
+   
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 100px;
+ 
+    
+    
+    flex-wrap: wrap;
+}
+.list{
+    cursor: pointer;
+    margin: 0 20px;
+    
+    position: relative;
+    overflow: hidden;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction:column ;
+  
+    gap: 10px;
+    text-align: center;
+}
+.circle{
+    
+    overflow: hidden;
+    height: 7vw;
+    width: 7vw;
+    border-radius: 50%;
+    background-color: blueviolet;
+}
+.list-item{
+    font-size: 1.1vw;
+}
+
+.circle img{
+    transition: all 0.5s ease-in-out;
+    box-shadow: 0px 0px 10px 0px rgb(10, 10, 10);
+    height: 100%;
+    border-radius: 50%;
+    width: 100%;
+    object-position: right;
+    object-fit: cover;
+}
+

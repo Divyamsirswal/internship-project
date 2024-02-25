@@ -36,10 +36,11 @@ body {
   opacity: 100%;
   padding: 15px;
   margin: 10px;
+  cursor: pointer;
 }
 
 .box img {
-  max-width: 80%;
+  max-width: 100%;
   height: 100%;
   justify-content: center;
 }

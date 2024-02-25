@@ -2,9 +2,13 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
+<<<<<<< HEAD
 
 import { Link } from "react-router-dom";
 
+=======
+import { useNavigate } from "react-router-dom";
+>>>>>>> eda943a03464a0108ad77f5fee660cc78940b4cf
 import tarot from "../../../public/ICONS/tarot.png";
 import angel from "../../../public/ICONS/angel.png";
 import ketinaLove from "../../../public/ICONS/ketinalove.png";
@@ -23,6 +27,7 @@ import getyoursolution from "../../../public/ICONS/getyoursolution.png";
 import divineLogo from "../../../public/ICONS/divinelogohorizontal.png";
 
 function FutureBoxes() {
+  const navigate = useNavigate();
   return (
     <>
       <Helmet>
@@ -48,17 +53,24 @@ function FutureBoxes() {
             <Col>
               <div className="box">
                 <img src={tarot} alt="Tarot Reading" className="img-fluid" />
+<<<<<<< HEAD
 
+=======
+>>>>>>> eda943a03464a0108ad77f5fee660cc78940b4cf
                 <h3
                   className="mt-3"
                   style={{ fontFamily: "Inter", fontWeight: "Bold" }}
                 >
+<<<<<<< HEAD
                   <Link
                     to="/tarot_reading"
                     className=" text-black hover:text-black font-bold"
                   >
                     Tarot Reading
                   </Link>
+=======
+                  Tarot Reading
+>>>>>>> eda943a03464a0108ad77f5fee660cc78940b4cf
                 </h3>
               </div>
             </Col>
@@ -211,7 +223,7 @@ function FutureBoxes() {
           <h2>Nourish Your soul</h2>
           <Row className="row-cols-1 row-cols-md-3 g-4">
             <Col>
-              <div className="box">
+              <div onClick={() => navigate("/Meditation")} className="box">
                 <img src={meditation} alt="Meditation" className="img-fluid" />
                 <h3
                   className="mt-3"
