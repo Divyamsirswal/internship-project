@@ -1,5 +1,5 @@
-import React from "react";
-import { useNavigate } from "react-router-dom";
+// import React from "react";
+// import { useNavigate } from "react-router-dom";
 import "./meditation.css";
 
 const Meditation = () => {
@@ -40,9 +40,6 @@ const Meditation = () => {
               <div className="circle">
                 <img className="hy" src={imgurl[index]} alt="Meditation" />
               </div>
-              {/* <div className="circle secpic">
-                <img src={imgurl[index]} alt="Meditation" />
-              </div> */}
               <div className="list-item" key={index}>
                 {option}
               </div>
