@@ -2,7 +2,7 @@ import { Container } from "react-bootstrap";
 import FutureBoxes from "../../assets/Boxes/FutureBoxes";
 import Header from "../../assets/Boxes/Header";
 
-import React from "react";
+// import React from "react";
 
 const Home = () => {
   return (
