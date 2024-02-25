@@ -1,7 +1,7 @@
-import { Container } from "react-bootstrap";
-import FutureBoxes from "./assets/Boxes/FutureBoxes";
+// import { Container } from "react-bootstrap";
+// import FutureBoxes from "./assets/Boxes/FutureBoxes";
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import Header from "./assets/Boxes/Header";
+// import Header from "./assets/Boxes/Header";
 import Meditation from "./components/meditation/Meditation";
 import Home from "./Page/Home/Home";
 function App() {
