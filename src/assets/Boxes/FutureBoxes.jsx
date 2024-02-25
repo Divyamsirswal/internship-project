@@ -90,7 +90,21 @@ function FutureBoxes() {
             </Col>
             <Col>
               <div className="box">
-                <img src={face} alt="Face Reader" className="img-fluid" />
+                
+            <li>
+              <Link to="/Facecard">
+                {" "}
+                <img
+                  src={face}
+                  className="Icon-img-top"
+                  alt="..."
+                />
+                <div className="card-body">
+                  <h5 className="Icon-title"></h5>
+                </div>
+              </Link>
+            </li>
+               
                 <h3
                   className="mt-3"
                   style={{ fontFamily: "Inter", fontWeight: "Bold" }}
