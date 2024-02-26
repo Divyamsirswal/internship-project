@@ -51,17 +51,122 @@ const TarotReading = () => {
               </div>
             </div>
             <div className="bg-red-100 w-[500px] h-[250px] relative rounded-3xl shadow outline outline-2 cursor-pointer">
-              <div className=" bg-black/80 w-[500px] h-[130px] rounded-b-3xl absolute bottom-0 "></div>
+              <div className=" flex flex-col gap-1 bg-black/80 px-4 py-2 w-[500px] h-[130px] rounded-b-3xl absolute bottom-0  ">
+                <span className=" text-2xl text-white ">
+                  Weekly Tarot Fortune
+                </span>
+                <span className=" text-xs text-white">
+                  February 12th to 16th <br /> Navigate foggy weeks with
+                  Tarot&apos;s illuminating wisdom. 🌫️ 🔮 Dive into clarity and
+                  discover your best course of action! 💡
+                </span>
+              </div>
+              <div className=" w-full h-full">
+                <img
+                  src="../../../public/images/vector.svg"
+                  className=" absolute left-[30.519px] bottom-[14.369px]"
+                  alt="...."
+                />
+                <img
+                  src="../../../public/images/vector2.svg"
+                  className=" absolute left-[23.438px] bottom-[12.672px]"
+                  alt="...."
+                />
+
+                <h1 className=" text-xl absolute left-[55px] bottom-[8px] font-[30px] text-white ">
+                  10
+                </h1>
+
+                <img
+                  src="../../../public/images/vector3.svg"
+                  alt="....."
+                  className=" absolute left-[86px] bottom-[14.699px]"
+                />
+
+                <h1 className=" text-xl absolute left-[120px] bottom-[8px] font-[30px] text-white ">
+                  10
+                </h1>
+              </div>
             </div>
           </div>
         </div>
         <div className=" items-center justify-center p-10 gap-20 flex w-screen h-max">
           <div className=" flex gap-20">
             <div className="bg-red-100 w-[500px] relative h-[250px] rounded-3xl shadow outline outline-2 cursor-pointer">
-              <div className=" bg-black/80 w-[500px] h-[130px] rounded-b-3xl absolute bottom-0 "></div>
+              <div className=" flex flex-col gap-1 bg-black/80 px-4 py-2 w-[500px] h-[130px] rounded-b-3xl absolute bottom-0 ">
+                <span className=" text-2xl text-white ">
+                  What Is the Age of My Destined Partner?
+                </span>
+                <span className=" text-xs text-white">
+                  Hold on tight! 💜 <br /> You’re about to uncover some juicy
+                  intel about your destined partner! 👀 Want a hint? Let the
+                  wisdom of Tarot guide you, my friend. 🧭 🗺
+                </span>
+              </div>
+              <div className=" w-full h-full">
+                <img
+                  src="../../../public/images/vector.svg"
+                  className=" absolute left-[30.519px] bottom-[14.369px]"
+                  alt="...."
+                />
+                <img
+                  src="../../../public/images/vector2.svg"
+                  className=" absolute left-[23.438px] bottom-[12.672px]"
+                  alt="...."
+                />
+
+                <h1 className=" text-xl absolute left-[55px] bottom-[8px] font-[30px] text-white ">
+                  10
+                </h1>
+
+                <img
+                  src="../../../public/images/vector3.svg"
+                  alt="....."
+                  className=" absolute left-[86px] bottom-[14.699px]"
+                />
+
+                <h1 className=" text-xl absolute left-[120px] bottom-[8px] font-[30px] text-white ">
+                  10
+                </h1>
+              </div>
             </div>
             <div className="bg-red-100 w-[500px] relative h-[250px] rounded-3xl shadow outline outline-2 cursor-pointer">
-              <div className=" bg-black/80 w-[500px] h-[130px] rounded-b-3xl absolute bottom-0 "></div>
+              <div className=" flex flex-col gap-1 bg-black/80 px-4 py-2 w-[500px] h-[130px] rounded-b-3xl absolute bottom-0 ">
+                <span className=" text-2xl text-white ">
+                  The First Half of 2024 Tarot Career Advice
+                </span>
+                <span className=" text-xs text-white">
+                  February 12th to 16th <br /> Navigate foggy weeks with
+                  Tarot&apos;s illuminating wisdom. 🌫️ 🔮 Dive into clarity and
+                  discover your best course of action! 💡
+                </span>
+              </div>
+              <div className=" w-full h-full">
+                <img
+                  src="../../../public/images/vector.svg"
+                  className=" absolute left-[30.519px] bottom-[14.369px]"
+                  alt="...."
+                />
+                <img
+                  src="../../../public/images/vector2.svg"
+                  className=" absolute left-[23.438px] bottom-[12.672px]"
+                  alt="...."
+                />
+
+                <h1 className=" text-xl absolute left-[55px] bottom-[8px] font-[30px] text-white ">
+                  10
+                </h1>
+
+                <img
+                  src="../../../public/images/vector3.svg"
+                  alt="....."
+                  className=" absolute left-[86px] bottom-[14.699px]"
+                />
+
+                <h1 className=" text-xl absolute left-[120px] bottom-[8px] font-[30px] text-white ">
+                  10
+                </h1>
+              </div>
             </div>
           </div>
         </div>
