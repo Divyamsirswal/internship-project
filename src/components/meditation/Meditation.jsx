@@ -31,7 +31,6 @@ const Meditation = () => {
   const onButtonClick = (option) => {
     if (option === "Daily Meditation") {
       navigate("/DailyMeditation");
-      console.log("Daily Meditation");
     }
   };
   return (
@@ -52,9 +51,6 @@ const Meditation = () => {
                   alt="Meditation"
                 />
               </div>
-              {/* <div className="circle secpic">
-                <img src={imgurl[index]} alt="Meditation" />
-              </div> */}
               <div className="list-item" key={index}>
                 {option}
               </div>

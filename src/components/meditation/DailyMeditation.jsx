@@ -43,7 +43,7 @@ const DailyMeditation = () => {
         <div className="cards">
           {name.map((name, index) => {
             return (
-              <div className="card">
+              <div className="Card">
                 <div className="head">
                   <h1>{name}</h1>
                 </div>

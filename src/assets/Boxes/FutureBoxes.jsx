@@ -2,6 +2,8 @@ import { Container, Row, Col } from "react-bootstrap";
 import { Helmet } from "react-helmet";
 import "bootstrap/dist/css/bootstrap.min.css";
 import "./style.css";
+
+import { Link } from "react-router-dom";
 import { useNavigate } from "react-router-dom";
 import tarot from "../../../public/ICONS/tarot.png";
 import angel from "../../../public/ICONS/angel.png";
@@ -51,7 +53,12 @@ function FutureBoxes() {
                   className="mt-3"
                   style={{ fontFamily: "Inter", fontWeight: "Bold" }}
                 >
-                  Tarot Reading
+                  <Link
+                    className="hove:text-black font-bold text-black"
+                    to="/tarot_reading"
+                  >
+                    Tarot Reading
+                  </Link>
                 </h3>
               </div>
             </Col>
@@ -83,7 +90,16 @@ function FutureBoxes() {
             </Col>
             <Col>
               <div className="box">
-                <img src={face} alt="Face Reader" className="img-fluid" />
+                <li>
+                  <Link to="/Facecard">
+                    {" "}
+                    <img src={face} className="Icon-img-top" alt="..." />
+                    <div className="card-body">
+                      <h5 className="Icon-title"></h5>
+                    </div>
+                  </Link>
+                </li>
+
                 <h3
                   className="mt-3"
                   style={{ fontFamily: "Inter", fontWeight: "Bold" }}
