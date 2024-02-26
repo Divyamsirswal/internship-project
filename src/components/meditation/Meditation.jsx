@@ -3,6 +3,7 @@ import { useNavigate } from "react-router-dom";
 import "./meditation.css";
 
 const Meditation = () => {
+  const navigate = useNavigate();
   const options = [
     "Daily Meditation",
     "Chakra Meditation",
@@ -27,6 +28,12 @@ const Meditation = () => {
     "https://images.unsplash.com/photo-1559595500-e15296bdbb48?q=80&w=1931&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
     "https://images.unsplash.com/photo-1554067559-269708c83fb6?q=80&w=1994&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D",
   ];
+  const onButtonClick = (option) => {
+    if (option === "Daily Meditation") {
+      navigate("/DailyMeditation");
+      console.log("Daily Meditation");
+    }
+  };
   return (
     <div className="Main-page">
       <div className="Meditation-text">
@@ -38,7 +45,12 @@ const Meditation = () => {
           return (
             <div className="list">
               <div className="circle">
-                <img className="hy" src={imgurl[index]} alt="Meditation" />
+                <img
+                  className="hy"
+                  onClick={() => onButtonClick(option)}
+                  src={imgurl[index]}
+                  alt="Meditation"
+                />
               </div>
               {/* <div className="circle secpic">
                 <img src={imgurl[index]} alt="Meditation" />
